@@ -1,0 +1,17 @@
+{
+  "name": "claude-code-bots",
+  "version": "1.0.0",
+  "description": "A Factorio-lite strategy game featuring Claude-themed bots",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
+}
