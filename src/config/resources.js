@@ -30,5 +30,26 @@ export const RESOURCES = {
     color: '#a78bfa',
     maxCapacity: 50,
     regenRate: 0
+  },
+  ADVANCED_CIRCUITS: {
+    id: 'advancedCircuits',
+    name: 'Advanced Circuits',
+    color: '#14b8a6',
+    maxCapacity: 25,
+    regenRate: 0
+  },
+  BOT_FRAMES: {
+    id: 'botFrames',
+    name: 'Bot Frames',
+    color: '#f97316',
+    maxCapacity: 25,
+    regenRate: 0
+  },
+  POWER_CORES: {
+    id: 'powerCores',
+    name: 'Power Cores',
+    color: '#ec4899',
+    maxCapacity: 25,
+    regenRate: 0
   }
 };

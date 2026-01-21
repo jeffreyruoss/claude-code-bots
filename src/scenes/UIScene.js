@@ -29,7 +29,7 @@ export default class UIScene extends Phaser.Scene {
     const panelX = 10;
     const panelY = 10;
     const panelWidth = 180;
-    const panelHeight = 140;
+    const panelHeight = 212;
 
     // Panel background
     this.resourcePanelBg = this.add.rectangle(
@@ -52,9 +52,9 @@ export default class UIScene extends Phaser.Scene {
 
     // Resource displays
     this.resourceTexts = {};
-    const resourceTypes = ['scrap', 'energy', 'circuits', 'dataCores'];
-    const resourceNames = ['Scrap', 'Energy', 'Circuits', 'Data Cores'];
-    const resourceColors = ['#6b6b6b', '#facc15', '#22d3ee', '#8b5cf6'];
+    const resourceTypes = ['scrap', 'energy', 'circuits', 'dataCores', 'advancedCircuits', 'botFrames', 'powerCores'];
+    const resourceNames = ['Scrap', 'Energy', 'Circuits', 'Data Cores', 'Adv Circuits', 'Bot Frames', 'Power Cores'];
+    const resourceColors = ['#6b6b6b', '#facc15', '#22d3ee', '#8b5cf6', '#14b8a6', '#f97316', '#ec4899'];
 
     resourceTypes.forEach((type, i) => {
       const y = panelY + 35 + i * 24;
@@ -222,7 +222,7 @@ export default class UIScene extends Phaser.Scene {
 
   createPowerIndicator() {
     const x = 10;
-    const y = 160;
+    const y = 232;
 
     // Power icon
     this.add.text(x, y, '⚡', {

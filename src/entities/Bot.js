@@ -17,7 +17,6 @@ export default class Bot {
 
     // Visual components
     this.sprite = null;
-    this.eye = null;
     this.workingIndicator = null;
 
     this.createSprite();
@@ -196,9 +195,6 @@ export default class Bot {
     }
     if (this.sprite) {
       this.sprite.destroy();
-    }
-    if (this.eye) {
-      this.eye.destroy();
     }
   }
 }

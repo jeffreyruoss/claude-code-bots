@@ -10,7 +10,10 @@ export default class ResourceManager {
       scrap: 0,
       energy: 0,
       circuits: 0,
-      dataCores: 0
+      dataCores: 0,
+      advancedCircuits: 0,
+      botFrames: 0,
+      powerCores: 0
     };
 
     // Capacity limits
@@ -18,7 +21,10 @@ export default class ResourceManager {
       scrap: 100,
       energy: 100,
       circuits: 50,
-      dataCores: 25
+      dataCores: 50,
+      advancedCircuits: 25,
+      botFrames: 25,
+      powerCores: 25
     };
 
     // Stats tracking
@@ -26,7 +32,10 @@ export default class ResourceManager {
       scrap: 0,
       energy: 0,
       circuits: 0,
-      dataCores: 0
+      dataCores: 0,
+      advancedCircuits: 0,
+      botFrames: 0,
+      powerCores: 0
     };
 
     // Event emitter for UI updates

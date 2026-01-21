@@ -92,9 +92,6 @@ export default class GameScene extends Phaser.Scene {
     });
     this.buildingManager.setBuildingDefinitions(buildingDefs);
 
-    // Make building manager accessible to other systems
-    this.buildingManager = this.buildingManager;
-
     // Production system
     this.productionSystem = new ProductionSystem(this, this.resourceManager, this.buildingManager);
     this.productionSystem.setRecipes(RECIPES);

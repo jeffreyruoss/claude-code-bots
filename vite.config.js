@@ -10,5 +10,8 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true
+  },
+  test: {
+    exclude: ['node_modules', 'e2e/**']
   }
 });

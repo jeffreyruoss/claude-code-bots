@@ -3,7 +3,7 @@
 Check the features you want implemented:
 
 ## Gameplay Features
-- [ ] **Conveyor belts** - Transport resources between buildings automatically
+
 - [ ] **Bot workers** - Animated bots that move between buildings
 - [ ] **Building upgrades** - Level up buildings for better efficiency
 - [ ] **Multiple maps/biomes** - Different starting areas with unique resources
@@ -13,6 +13,7 @@ Check the features you want implemented:
 - [ ] **Defense turrets** - Protect your factory from threats
 
 ## New Buildings
+
 - [ ] **Solar Panel** - Passive power generation (less than generator)
 - [ ] **Battery** - Store excess power for later
 - [ ] **Logistics Hub** - Increase harvester range
@@ -20,6 +21,7 @@ Check the features you want implemented:
 - [ ] **Beacon** - Boost all buildings in radius
 
 ## UI/UX Improvements
+
 - [ ] **Research panel UI** - Visual tech tree with click-to-research
 - [ ] **Recipe selector for Assemblers** - Click assembler to choose recipe
 - [ ] **Production statistics** - Graph showing resources over time
@@ -30,6 +32,7 @@ Check the features you want implemented:
 - [ ] **Tooltips everywhere** - Hover info for all UI elements
 
 ## Visual Polish
+
 - [ ] **Animated buildings** - Spinning gears, pulsing lights
 - [ ] **Particle effects** - Sparks when harvesting, smoke from generators
 - [ ] **Day/night cycle** - Visual ambiance changes
@@ -38,11 +41,13 @@ Check the features you want implemented:
 - [ ] **Resource floating numbers** - "+5 Scrap" popups
 
 ## Audio
+
 - [ ] **Background music** - Ambient electronic/industrial
 - [ ] **Sound effects** - Building placement, harvesting, crafting
 - [ ] **UI sounds** - Button clicks, notifications
 
 ## Technical Improvements
+
 - [ ] **Cloud save (Supabase)** - Sync progress across devices
 - [ ] **Mobile support** - Touch controls, responsive layout
 - [ ] **Infinite procedural map** - Generate chunks as you explore
@@ -51,8 +56,9 @@ Check the features you want implemented:
 - [ ] **Blueprint system** - Save and paste building layouts
 
 ## Code Quality
-- [ ] **Fix missing resource types** - Add advancedCircuits, botFrames, powerCores
-- [ ] **Remove dead code** - Unused SpriteFactory methods
-- [ ] **Add TypeScript** - Type safety
-- [ ] **Unit tests** - Test game systems
-- [ ] **E2E tests** - Playwright tests for gameplay
+
+- [x] **Fix missing resource types** - Add advancedCircuits, botFrames, powerCores
+- [x] **Remove dead code** - Unused SpriteFactory methods (~400 lines removed)
+- [x] **Add TypeScript** - Type safety (tsconfig + type definitions)
+- [x] **Unit tests** - Test game systems (73 tests with Vitest)
+- [x] **E2E tests** - Playwright tests for gameplay
